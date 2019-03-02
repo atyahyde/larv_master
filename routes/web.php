@@ -19,3 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 route::resource('biodata','BiodataController');
+
+Route::resource('questions', 'QuestionsController');
